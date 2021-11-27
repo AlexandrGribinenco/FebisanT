@@ -12,13 +12,13 @@ function Navbar(props) {
         <div className={classes.Navbar}>
             <nav className={classes.Navbar}>
                 <div className={classes.navItem}>
+                    <NavLink to="/countries" className={setActive}> COUNTRIES</NavLink>
+                </div>
+                <div className={classes.navItem}>
                     <NavLink to="/home" className={setActive}> HOME</NavLink>
                 </div>
                 <div className={`${classes.navItem} ${classes.active}`}>
                     <NavLink to="/about" className={setActive}> ABOUT</NavLink>
-                </div>
-                <div className={classes.navItem}>
-                    <NavLink to="/service" className={setActive}> SERVICE</NavLink>
                 </div>
                 <div className={classes.navItem}>
                     <NavLink to="/gallery" className={setActive}> GALLERY</NavLink>

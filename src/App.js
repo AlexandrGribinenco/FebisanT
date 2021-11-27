@@ -4,11 +4,11 @@ import Footer from "./Components/Pages/Footer/Footer";
 import {Route, Routes} from "react-router-dom";
 import Home from "./Components/Pages/Home/Home";
 import About from "./Components/Pages/About/About";
-import Service from "./Components/Pages/Service/Service";
 import Gallery from "./Components/Pages/Gallary/Gallery";
 import Contact from "./Components/Pages/Contact/Contact";
 import React from "react";
 import Navbar from "./Components/Pages/Navbar/Navbar";
+import Countries from "./Components/Countries/Countries";
 
 function App() {
     return (
@@ -18,6 +18,9 @@ function App() {
                 <Navbar/>
             </div>
             <Routes>
+                <Route path="/countries"
+                element={<Countries/>}
+                />
                 <Route path="/home"
                        element={<Home />}/>
                 <Route exact path="/about"

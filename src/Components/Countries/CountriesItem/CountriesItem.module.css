@@ -1,0 +1,16 @@
+.flag {
+    width: 240px;
+    height: 150px;
+}
+.countryCard {
+    width: 240px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.info{
+    padding-bottom: 15px;
+}
+.span {
+    font-size: 15px;
+    font-weight: bold;
+}

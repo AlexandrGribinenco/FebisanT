@@ -1,0 +1,15 @@
+
+.countriesWrapper {
+display: flex;
+    flex-wrap: wrap;
+}
+.search{
+    height: 46px;
+    border-radius: 48px;
+    border: 0.5px solid lightgrey;
+    width: 50%;
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
