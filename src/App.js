@@ -22,7 +22,6 @@ function App() {
                        element={<Home />}/>
                 <Route exact path="/about"
                        element={<About />}/>
-                <Route path="/service" element={<Service />}/>
                 <Route path="/gallery" element={<Gallery />}/>
                 <Route path="/contact" element={<Contact />}/>
             </Routes>
